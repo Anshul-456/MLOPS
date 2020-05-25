@@ -1,0 +1,2 @@
+# MLOPS_Project
+In this we intergrate Machine learning wiht DevOps tools. In this we create an model which take MNIST data set as input. Then we create different number of Jobs on Jenkins for running that model automatically{if its does not match accuracy then its run multiple times, but when its reache to perfect/needed accuracy then its stop}. In this process jenkins also send email with the help of python code about the status of model. Also the model training will run on docker image which make its faster to impliment.
